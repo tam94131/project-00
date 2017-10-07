@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tahl's SS (SuperSimple) Racing Game</title>
+
+    <!-- META STUFF -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  	<meta name="author" content="Tahl Milburn">
+  	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+  	<meta name="description" content="Racing game">
+
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+
+    <!-- VENDOR SCRIPTS -->
+  	<script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <!-- APPLICATION SCRIPTS -->
+    <script src="scripts/app.js"></script>
+
+    <!-- favicon -->
+    <!-- add favicon -->
+
+      <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Fontdiner+Swanky:400,500,600,700" rel="stylesheet">
+  </head>
+
+  <body>
+  	<header>
+        
+        <div id="bannerDiv">
+        <h1>Tahl's SS (SuperSimple) Racing Game</h1>
+		<img src="images/multicars.jpg" style="width:100%">
+ <!--       <img class="banner" src=>
+		<img class="banner" src="images/multicars.jpeg">
+-->
+		</div>
+
+		<div id="formDiv">
+         	<form id="userForm" action="">
+         		<label>Enter player1
+            		<input id="player1" type="text" name="player1" minlength=3 placeholder="Type in name" />
+        		</label>
+        		<br />
+        		<label>Enter player2
+            		<input id="player2" type="text" name="player2" minlength=3 placeholder="Type in name" />
+        		</label>
+        		<br/>
+        		<!-- button in here 	-->
+          	</form>
+
+         	<br/>
+          	<div id="countDown"></div>
+
+        </div>		<!--formDiv-->
+  	</header>
+
+  	<main>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+        	<img id="car1" src="images/car1.jpeg">
+        </div>	 <!--column-->
+      </div>	   <!--row-->
+
+      <div class="row">
+        <div class="col-md-12">
+        	<img id="car2" src="images/car2.jpeg">
+        </div>	 <!--column-->
+      </div>	   <!--row-->
+
+ <!--      <div class="row">
+        <div class="col-md-12">
+        	This is the racetrack
+        </div>	 
+      </div>	 
+ -->
+      
+      <div class="row">
+      	<div class="col-md-12">
+      		<hr />
+      		<img class="crowd" src="images/crowd.jpeg">
+      		<img class="crowd" src="images/crowd.jpeg">
+      		<img class="crowd" src="images/crowd.jpeg">
+      	</div>
+      </div>  <!--row-->
+
+    </div>		<!--container-->
+	</main>
+
+  </body>
+</html>
