@@ -1,24 +1,43 @@
+body {
+	background-color: #FF7F50; 
+	width: 850px;
+	margin: 35px auto;
+}
+
 header {
-	/* background-image: assets/imgs/tikigiki-abstract-element-001b.png; */
 	text-align: center;
 	background-color: #FF8F68; 
 }
 
-/*
-#bannerDiv {
-	background-image: url("");
-	height: 800px;
+h1,h2 {
+	font-family: 'Racing Sans One', cursive;
 }
 
-.banner {
-	height: 200px;
-	margin: 0;
-	padding: 0;
-	border: 0;
+h1 {
+	padding: 25px;
 }
-*/
 
-#car1, #car2 {
+h2 {
+	font-size: 24px;
+}
+
+#userForm {
+	padding: 22px;
+}
+
+#submit {
+	border-radius: 7px;
+}
+
+.track {
+	width: 800px;
+	border-style: solid;
+	border-color: #885555;
+	border-width: 2px 0 2px 0;
+	margin: 7px 0 7px 0 ;
+}
+
+.cars {
 	width: 200px;
 }
 
@@ -28,42 +47,3 @@ header {
 #car2 {
 	margin-left: 0px;
 }
-
-body {
-	/* background-image: assets/imgs/tikigiki-abstract-element-001b.png; */
-	background-color: #FF7F50; 
-/*	margin: 0; */
-	width: 850px;
-	margin: 35px auto;
-}
-
-h1,h2 {
-	font-family: 'Fontdiner Swanky', cursive;
-	font-size: 30;
-}
-
-
-/* NOT IN USE */
-
-.portrait {
-	border-radius: 100%;
-	width: 200px;
-}
-
-a {
-	text-decoration: none;
-/*	font-family: 'Raleway'; */
-/*	color: #F15B31; */
-}
-
-a:hover {
-	border-color: white;
-}
-
-li {
-	list-style: none;
-	letter-spacing: 1px;
-	font-size: 18px;
-	margin: 0 20px;
-}
-

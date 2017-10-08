@@ -12,6 +12,8 @@
     <!-- STYLESHEETS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles/style.css">
+	<link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
     <!-- VENDOR SCRIPTS -->
   	<script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
@@ -25,34 +27,34 @@
     <!-- add favicon -->
 
       <!-- fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Fontdiner+Swanky:400,500,600,700" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Fontdiner+Swanky:400,500,600,700" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Racing+Sans+One" rel="stylesheet">
   </head>
 
   <body>
   	<header>
         
-        <div id="bannerDiv">
-        <h1>Tahl's SS (SuperSimple) Racing Game</h1>
+<!--        <div id="bannerDiv">  -->
+        <h1 class="animated shake">Tahl's SS (SuperSimple) Racing Game</h1>
 		<img src="images/multicars.jpg" style="width:100%">
  <!--       <img class="banner" src=>
 		<img class="banner" src="images/multicars.jpeg">
 -->
-		</div>
+<!--		</div>		-->
 
 		<div id="formDiv">
          	<form id="userForm" action="">
          		<label>Enter player1
             		<input id="player1" type="text" name="player1" minlength=3 placeholder="Type in name" />
         		</label>
-        		<br />
+        		&nbsp;&nbsp;&nbsp;
         		<label>Enter player2
             		<input id="player2" type="text" name="player2" minlength=3 placeholder="Type in name" />
         		</label>
-        		<br/>
+        		&nbsp; &nbsp; &nbsp;
         		<!-- button in here 	-->
           	</form>
-
-         	<br/>
+          	
           	<div id="countDown"></div>
 
         </div>		<!--formDiv-->
@@ -60,15 +62,15 @@
 
   	<main>
     <div class="container">
-      <div class="row">
+      <div class="row track">
         <div class="col-md-12">
-        	<img id="car1" src="images/car1.jpeg">
+        	<img id="car1" class="cars" src="images/car1.jpeg">
         </div>	 <!--column-->
       </div>	   <!--row-->
 
-      <div class="row">
+      <div class="row track">
         <div class="col-md-12">
-        	<img id="car2" src="images/car2.jpeg">
+        	<img id="car2" class="cars" src="images/car2.jpeg">
         </div>	 <!--column-->
       </div>	   <!--row-->
 
@@ -81,7 +83,6 @@
       
       <div class="row">
       	<div class="col-md-12">
-      		<hr />
       		<img class="crowd" src="images/crowd.jpeg">
       		<img class="crowd" src="images/crowd.jpeg">
       		<img class="crowd" src="images/crowd.jpeg">
