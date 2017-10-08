@@ -7,7 +7,8 @@ Yes, by merely pressing a key (rapidly), you can move your super-expensive super
 
 ## Technologies Used
 
-*A lot of interesting and useful technologies were deployed:*
+*A lot of interesting and useful technologies were deployed.*
+These include:
   *JavaScript
   *JQuery
   *Google Fonts
@@ -17,6 +18,7 @@ Yes, by merely pressing a key (rapidly), you can move your super-expensive super
 ## Existing Features
 
 *Current features:*
+These include:
   *Collapsing sections
   *Countdown timer to race start (with key lock-out)
   *Animation!
@@ -26,6 +28,7 @@ Yes, by merely pressing a key (rapidly), you can move your super-expensive super
 ## Planned Features
 
 *Future features:*
+These include:
   *CSS to connect crowd pic
   *Finish line
   *Start new game button; keeping track of players
